@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>630</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1677777</width>
+    <height>1677777</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background:none;
+background-color: rgba(21, 21, 31,197);</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frmLogo">
+         <property name="styleSheet">
+          <string notr="true">background:none;
+background-color: rgba(57, 57, 57,105);
+border:4px rgba(216, 216, 216, 127);
+border-radius:4px rgba(216, 216, 216, 187);
+
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1" alignment="Qt::AlignHCenter|Qt::AlignTop">
+              <widget class="QFrame" name="frame_4">
+               <property name="styleSheet">
+                <string notr="true">background:none;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_3">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>35</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QLabel" name="lblNocz">
+                  <property name="font">
+                   <font>
+                    <family>Noto Sans Bengali UI Light</family>
+                    <pointsize>36</pointsize>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(0, 170, 255);
+font: &quot;Noto Sans Bengali UI Light&quot;;
+background:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;N O C z&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="textFormat">
+                   <enum>Qt::RichText</enum>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_2">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <widget class="QTextEdit" name="textEdit_2">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>30</y>
+               <width>261</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QTextEdit{
+	color: rgb(255, 255, 255);
+	background:none;
+	background-color: rgba(34, 34, 34,57);
+	border-radius:5px;
+	border-style:outset;
+	border-width: 0.5px;
+	border-color: rgba(91, 91, 91,187);
+}
+
+
+QTextEdit:hover {
+	
+    border-width: 1px;
+   	border-color: rgba(85, 170, 255,87);
+	border-top-color: rgba(85, 170, 255,187);
+	
+}
+</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>38</x>
+               <y>35</y>
+               <width>80</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>50</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Utsaah</family>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:none;
+color: rgba(250, 250, 250,137);
+
+</string>
+             </property>
+             <property name="text">
+              <string>Usuário:</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="btnOk">
+             <property name="geometry">
+              <rect>
+               <x>242</x>
+               <y>70</y>
+               <width>35</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton  {
+	
+	color: rgba(209, 209, 209,137);
+    border-radius:4px;
+	border-style:outset;
+	border-width: 0.5px;
+	border-color: rgba(209, 209, 209,127);
+
+	
+}
+
+QPushButton:hover  {
+	color: rgba(85, 170, 255,137);
+	padding-left:3px;
+    border-width: 0.8px;
+	border-top-color: rgba(85, 170, 255,187);
+    border-color: rgba(85, 170, 255,87);
+    background-color: rgba(199, 199, 199,67); 
+  }</string>
+             </property>
+             <property name="text">
+              <string>OK</string>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtPassword">
+             <property name="geometry">
+              <rect>
+               <x>41</x>
+               <y>70</y>
+               <width>185</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="toolTip">
+              <string>Digite a senha-admin</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	color: rgba(250, 250, 250,137);
+	background:none;
+	background-color: rgba(199, 199, 199,7);
+	border-radius:6px;
+	border-style:outset;
+	border-width: 0.5px;
+	border-color: rgba(91, 91, 91,197);
+}
+
+QLineEdit:hover {
+	
+    border-width: 1px;
+   	border-color: rgba(85, 170, 255,87);
+	border-top-color: rgba(85, 170, 255,187);
+    background-color: rgba(199, 199, 199,17); 
+  
+	
+}
+</string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+             <property name="placeholderText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtUser">
+             <property name="geometry">
+              <rect>
+               <x>76</x>
+               <y>40</y>
+               <width>80</width>
+               <height>15</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="toolTip">
+              <string>Usuário - admin</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	color: rgba(250, 250, 250,137);
+	background:none;
+   background-color: rgba(34, 34, 34,37);
+	border-radius:3px;
+	border-color: rgba(91, 91, 91,197);
+}
+
+QLineEdit:focus {
+   	color: rgba(250, 250, 250,137);
+	border-bottom-color:  rgba(85, 170, 255,187);
+   	border-color: rgba(85, 170, 255,87);
+	
+}
+</string>
+             </property>
+             <property name="maxLength">
+              <number>20</number>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Normal</enum>
+             </property>
+             <property name="placeholderText">
+              <string>User</string>
+             </property>
+            </widget>
+            <widget class="QCheckBox" name="checkRec">
+             <property name="geometry">
+              <rect>
+               <x>38</x>
+               <y>122</y>
+               <width>101</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:none;
+color: rgba(250, 250, 250,137);
+</string>
+             </property>
+             <property name="text">
+              <string>Esqueceu a senha?</string>
+             </property>
+            </widget>
+            <widget class="QCheckBox" name="checkCad">
+             <property name="geometry">
+              <rect>
+               <x>209</x>
+               <y>122</y>
+               <width>71</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:none;
+color: rgba(250, 250, 250,137);
+</string>
+             </property>
+             <property name="text">
+              <string>Cadastre-se</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>txtPassword</tabstop>
+  <tabstop>btnOk</tabstop>
+  <tabstop>textEdit_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

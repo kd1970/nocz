@@ -1,0 +1,19 @@
+    #Movimentação da janela (WINDOW) principal com movimento do MOUSE     self.setAttribute(Qt.WA_TranslucentBackground)
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+    def mousePressEvent(self, event):
+        self.oldPos = event.globalPos()
+
+    def mouseMoveEvent(self, event):
+        delta = QPoint (event.globalPos() - self.oldPos)
+        self.move(self.x() + delta.x(), self.y() + delta.y())
+        self.oldPos = event.globalPos()    
+    #FIM movimentacao screen via MOUSE
+    
+
+    "QPushButton{border-radius:4px;border-style: outset;border-width: 2px;border-color: rgba(170, 255, 0, 167);color: rgb(81, 243, 243);	background-color: rgb(95, 95, 95);}"
+    
